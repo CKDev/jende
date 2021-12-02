@@ -1,0 +1,1754 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <meta property="og:description" content="">
+  <meta property="og:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <style>
+    a.cta_button {
+      -moz-box-sizing: content-box !important;
+      -webkit-box-sizing: content-box !important;
+      box-sizing: content-box !important;
+      vertical-align: middle
+    }
+
+    .hs-breadcrumb-menu {
+      list-style-type: none;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px
+    }
+
+    .hs-breadcrumb-menu-item {
+      float: left;
+      padding: 10px 0px 10px 10px
+    }
+
+    .hs-breadcrumb-menu-divider:before {
+      content: '›';
+      padding-left: 10px
+    }
+
+    .hs-featured-image-link {
+      border: 0
+    }
+
+    .hs-featured-image {
+      float: right;
+      margin: 0 0 20px 20px;
+      max-width: 50%
+    }
+
+    @media (max-width: 568px) {
+      .hs-featured-image {
+        float: none;
+        margin: 0;
+        width: 100%;
+        max-width: 100%
+      }
+    }
+
+    .hs-screen-reader-text {
+      clip: rect(1px, 1px, 1px, 1px);
+      height: 1px;
+      overflow: hidden;
+      position: absolute !important;
+      width: 1px
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/@marketplace/Mojo_Media_Labs/MojoFlex-Master/css/mojoflex-styles.css">
+  <style>
+    .alert-bar {
+
+      background-color: rgba(179, 58, 58, 1);
+
+    }
+
+
+
+    .header-utility {
+
+      background-color: rgba(66, 130, 193, 1);
+
+    }
+
+    .utility-nav a,
+    .utility-nav a:visited {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .utility-nav a:hover,
+    .utility-nav a:focus {
+      color: rgba(255, 255, 255, 1);
+
+      text-decoration: none;
+
+    }
+
+
+    .utility-nav.off-canvas ul {
+      border-top: 1px solid rgba(255, 255, 255, .55);
+    }
+
+    .utility-nav.off-canvas a,
+    .utility-nav.off-canvas a:visited {
+      color: rgba(255, 255, 255, 1);
+    }
+
+
+
+    .header {
+      position: fixed;
+    }
+
+
+    .header.sticky-header {
+      background: rgba(0, 0, 0, .85);
+      box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
+      height: auto;
+    }
+
+    .header.sticky-header .header-flex {
+      padding: 10px 0;
+    }
+
+
+    @media(min-width: 992px) {
+      .header {
+        position: absolute;
+      }
+
+
+      .header {
+        position: fixed;
+      }
+
+    }
+
+
+
+    .header-logo {
+      max-width: 100px;
+    }
+
+    .header.sticky-header .header-logo.switch {
+      max-width: 250px;
+    }
+
+    @media(min-width: 768px) {
+      .header-logo {
+        max-width: 100px;
+      }
+
+      .header.sticky-header .header-logo.switch {
+        max-width: 250px;
+      }
+    }
+
+
+
+    .navbar-collapse {
+      background: rgba(34, 34, 34, 0.97);
+    }
+
+    .navbar-toggle .icon-bar {
+      background: rgba(255, 255, 255, 1);
+    }
+
+    .header.sticky-header .navbar-toggle .icon-bar {
+      background: rgba(255, 255, 255, 1);
+    }
+
+    .navbar-toggle:hover .icon-bar {
+      background: rgba(65, 130, 192, 1);
+      width: 100%;
+    }
+
+    .navbar-close:hover .icon-bar {
+      background: rgba(65, 130, 192, 1);
+    }
+
+    .nav ul li a,
+    .nav ul li a:visited,
+    .nav ul li a:focus,
+    .nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .nav ul li a:hover,
+    .nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a:hover {
+      color: rgba(65, 130, 192, 1);
+    }
+
+
+    .nav li.arrow ul li a,
+    .nav li.arrow ul li a:visited,
+    .nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper>li>a,
+    .nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper>li>a:visited {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .nav li.arrow ul li a:hover,
+    .nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper>li>a:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+
+
+
+
+
+
+
+    .social.header-soc a,
+    .social.header-soc a:visited {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .social.header-soc a:hover,
+    .social.header-soc a:focus {
+      color: rgba(255, 255, 255, 1);
+    }
+  </style>
+  <style>
+    .feature-item.dnd_area-module-1 {
+      background-position: center center;
+    }
+
+    .feature-item.dnd_area-module-1.custom-padding {
+      padding: 100px 0 100px;
+    }
+
+    @media(min-width: 992px) {
+      .feature-item.dnd_area-module-1 {
+        background-position: center center;
+      }
+
+      .feature-item.dnd_area-module-1.custom-padding {
+        padding: 100px 0 100px;
+      }
+    }
+  </style>
+  <style>
+    @media(min-width: 992px) {
+      .marketing-ctas-flex.three .marketing-cta:nth-child(3n + 2) {
+        position: relative;
+        top: 45px;
+      }
+    }
+
+    @media(min-width: 1200px) {
+      .marketing-ctas-flex.three .marketing-cta:nth-child(3n + 2) {
+        position: relative;
+        top: 55px;
+      }
+
+      .marketing-ctas-flex.four .marketing-cta:nth-child(4n + 2),
+      .marketing-ctas-flex.four .marketing-cta:nth-child(4n + 3) {
+        position: relative;
+        top: 55px;
+      }
+    }
+
+
+
+
+    .marketing-ctas-flex.dnd_area-module-2 {
+      margin: -100px auto 15px;
+    }
+
+    @media(min-width: 1200px) {
+      .marketing-ctas-flex.dnd_area-module-2 {
+        margin: -150px auto 15px;
+      }
+    }
+
+
+    .std-padding.dnd_area-module-2 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-3 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 0px 0 60px;
+
+    }
+
+    .page-content.dnd_area-module-3 {
+      text-align: left;
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-3 {
+        padding: 0px 0 80px;
+      }
+    }
+
+
+    @media(min-width: 992px) {
+      .page-content.dnd_area-module-3 {
+        text-align: left;
+      }
+    }
+  </style>
+  <style>
+    .tile-content.dnd_area-module-4 {
+
+      background-color: #fa4f05;
+      background: -moz-linear-gradient(-45deg, rgba(250, 79, 5, 1) 0%, rgba(216, 53, 19, 1) 100%);
+      background: linear-gradient (-45deg, rgba(250, 79, 5, 1) 0%, rgba(216, 53, 19, 1) 100%);
+      background: -webkit-linear-gradient(-45deg, rgba(250, 79, 5, 1) 0%, rgba(216, 53, 19, 1) 100%);
+
+      text-align: left;
+    }
+
+    @media(min-width: 992px) {
+      .tile-content.dnd_area-module-4 {
+        text-align: left;
+      }
+
+      .tile-content.dnd_area-module-4.add-offset {
+        margin: 0 -25px 80px 0;
+      }
+
+      .tile-flex.offset.image-left .tile-content {
+        margin: 0 0px 80px -25px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-5 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 25px 0 50px;
+
+    }
+
+    .page-content.dnd_area-module-5 {
+      text-align: left;
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-5 {
+        padding: 40px 0 0px;
+      }
+    }
+
+
+    @media(min-width: 992px) {
+      .page-content.dnd_area-module-5 {
+        text-align: left;
+      }
+    }
+  </style>
+  <style>
+    .services-flex.dnd_area-module-6 .service-item,
+    .services-flex.dnd_area-module-6 .service-item {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .std-padding.dnd_area-module-6 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 0px 0 80px;
+
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-6 {
+        padding: 0px 0 80px;
+      }
+    }
+  </style>
+  <style>
+    .tile-content.dnd_area-module-7 {
+
+      background-color: #070f2d;
+      background: -moz-linear-gradient(-45deg, rgba(7, 15, 45, 1) 0%, rgba(10, 24, 75, 1) 100%);
+      background: linear-gradient (-45deg, rgba(7, 15, 45, 1) 0%, rgba(10, 24, 75, 1) 100%);
+      background: -webkit-linear-gradient(-45deg, rgba(7, 15, 45, 1) 0%, rgba(10, 24, 75, 1) 100%);
+
+      text-align: left;
+    }
+
+    @media(min-width: 992px) {
+      .tile-content.dnd_area-module-7 {
+        text-align: left;
+      }
+
+      .tile-content.dnd_area-module-7.add-offset {
+        margin: 0 -25px 80px 0;
+      }
+
+      .tile-flex.offset.image-left .tile-content {
+        margin: 0 0px 80px -25px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-8 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 35px 0 50px;
+
+    }
+
+    .page-content.dnd_area-module-8 {
+      text-align: left;
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-8 {
+        padding: 50px 0 50px;
+      }
+    }
+
+
+    @media(min-width: 992px) {
+      .page-content.dnd_area-module-8 {
+        text-align: left;
+      }
+    }
+  </style>
+  <style>
+    .image-ctas-flex.dnd_area-module-9 .image-cta-shader {
+      background: -moz-linear-gradient(top, rgba(0, 18, 39, 0.40) 0%, rgba(0, 18, 39, 1) 85%, rgba(0, 18, 39, 1) 100%);
+      background: linear-gradient (top, rgba(0, 18, 39, 0.40) 0%, rgba(0, 18, 39, 1) 85%, rgba(0, 18, 39, 1) 100%);
+      background: -webkit-linear-gradient(top, rgba(0, 18, 39, 0.40) 0%, rgba(0, 18, 39, 1) 85%, rgba(0, 18, 39, 1) 100%);
+    }
+
+    .std-padding.dnd_area-module-9 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 25px 0 0px;
+
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-9 {
+        padding: 25px 0 0px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-10 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 30px 0 30px;
+
+    }
+
+    .page-content.dnd_area-module-10 {
+      text-align: left;
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-10 {
+        padding: 30px 0 30px;
+      }
+    }
+
+
+    @media(min-width: 992px) {
+      .page-content.dnd_area-module-10 {
+        text-align: left;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-11 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 0px 0 55px;
+
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-11 {
+        padding: 0px 0 80px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-12 {
+
+      background-image: url(/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/content/purple-textures-bg.jpg);
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 80px 0 80px;
+
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-12 {
+        padding: 120px 0 120px;
+      }
+    }
+  </style>
+  <link rel="stylesheet"
+    href="/hs-fs/hub/8890237/hub_generated/template_assets/41242951735/1612403068647/marketplace/Mojo_Media_Labs/MojoFlex-Master/css/libraries/slick-min-mf.min.css">
+  <style>
+    .std-padding.dnd_area-module-13 {
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+      padding: 80px 0 80px;
+
+    }
+
+
+    @media(min-width: 992px) {
+      .std-padding.dnd_area-module-13 {
+        padding: 150px 0 150px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.no-padding.dnd_area-module-14 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      height: 250px;
+      background-image: url(/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/content/dallas-map-mobile.jpg);
+    }
+
+    .std-padding.no-padding.dnd_area-module-14.with-video {
+      overflow: hidden;
+    }
+
+    .std-padding.no-padding.dnd_area-module-14 a,
+    .std-padding.no-padding.dnd_area-module-14 a:visited {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 40px;
+      bottom: 0;
+      left: 40px;
+      z-index: 5;
+    }
+
+    @media(min-width: 992px) {
+      .std-padding.no-padding.dnd_area-module-14 {
+        height: 400px;
+
+        background-image: url(/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/content/dallas-map-lrg.jpg);
+
+      }
+
+      .std-padding.no-padding.dnd_area-module-14 a,
+      .std-padding.no-padding.dnd_area-module-14 a:visited {
+        right: 150px;
+        left: 150px;
+      }
+    }
+  </style>
+  <style>
+    .std-padding.dnd_area-module-15 {
+
+      background-image: url(/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/content/purple-textures-bg.jpg);
+
+
+      background-color: rgba(255, 255, 255, 1);
+
+
+    }
+
+
+
+    .form-wrapper.add-padding {
+      padding: 25px;
+    }
+
+    .form-wrapper.dnd_area-module-15 {
+      background-color: rgba(255, 255, 255, .0);
+      border-radius: 0px;
+    }
+
+    @media(min-width: 1200px) {
+      .form-wrapper.add-padding {
+        padding: 40px 50px;
+      }
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Kanit:regular,700|Lato:regular,400&amp;display=swap">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="canonical" href="/7dea362b-3fac-3e00-956a-4952a3d4f474">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="zoom-domain-verification" content="ZOOM_verify_Dxk18GdTQLGdGgaoc1R_Ug">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RLFPJDC3P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3RLFPJDC3P');
+  </script>
+  <script>
+    (function () {
+      var zi = document.createElement('script');
+      zi.type = 'text/javascript';
+      zi.async = true;
+      zi.src = 'https://ws.zoominfo.com/pixel/wRVuVWINUFkYsc1yrjNN';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(zi, s);
+    })();
+  </script>
+  <meta property="og:url" content="/7dea362b-3fac-3e00-956a-4952a3d4f474">
+  <meta name="twitter:card" content="summary">
+  <meta name="generator" content="HubSpot">
+</head>
+
+<body>
+  <div class="body-wrapper   hs-content-id-1 hs-landing-page hs-page ">
+    <div
+      data-global-resource-path="@marketplace/Mojo_Media_Labs/MojoFlex-Master/templates/partials/mojoflex-header.html">
+      <header class="header">
+        <div id="hs_cos_wrapper_mojoflex-header" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+          style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+          <a href="../../../../../../index.html" class="skip-nav"
+            aria-label="This is here to skip the navigation and take you right to the beginning of the content area"></a>
+          <div class="header">
+            <div class="page-content max">
+              <div class="header-flex">
+                <div class="header-logo ">
+                  <a aria-label="Jende Solutions - Analytics and Higher Ed Data Management" class="logo"
+                    href="../../../../../../solutions/jende/www/index.html"> <img class="reg-logo"
+                      src="/hubfs/White%20-%20Jende%20logo%20square.png"
+                      alt="Jende Solutions - Analytics and Higher Ed Data Management"> </a>
+                </div>
+                <div class="header-nav">
+                  <div class="mobile-hide">
+                    <span id="hs_cos_wrapper_mojoflex-header_"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="cta"></span>
+                  </div>
+                  <div class="lang-switch-wrapper">
+                  </div>
+                  <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                    <button type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar first"></span> <span class="icon-bar middle"></span> <span
+                        class="icon-bar last"></span> </button>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <section aria-label="Off Canvas Navigation" class="navbar-collapse ">
+              <button type="button" class="navbar-close"> <span class="sr-only">Toggle navigation</span> <span
+                  class="icon-bar first"></span> <span class="icon-bar last"></span> </button>
+              <div class="off-canvas-inner">
+                <div class="social header-soc">
+                  <ul>
+                  </ul>
+                </div>
+                <div class="nav">
+                  <span id="hs_cos_wrapper_mojoflex-header_"
+                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style=""
+                    data-hs-cos-general-type="widget" data-hs-cos-type="menu">
+                    <div id="hs_menu_wrapper_mojoflex-header_"
+                      class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation"
+                      data-sitemap-name="default" data-menu-id="38150000754" aria-label="Navigation Menu">
+                      <ul role="menu">
+                        <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                            href="../../../../../../solutions/jende/www/index.html" role="menuitem">Home Page</a></li>
+                        <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                            href="../../../../../../solutions/jende/www/what-is-anti-fragile-platforming-jende-solutions.html"
+                            role="menuitem">What Is Anti-Fragile Platforming?</a></li>
+                        <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a
+                            href="../../../../../../index.html" aria-haspopup="true" aria-expanded="false"
+                            role="menuitem">Solutions</a>
+                          <ul role="menu" class="hs-menu-children-wrapper">
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a
+                                href="../../../../../../solutions/jende/www/innovation-pathway.html"
+                                role="menuitem">Innovation Pathway</a></li>
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a
+                                href="../../../../../../solutions/jende/www/co-op.html" role="menuitem">Co-Op</a></li>
+                            <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a
+                                href="../../../../../../solutions/jende/www/campsite-platform.html"
+                                role="menuitem">CAMPSITE Platform</a>
+                              <ul role="menu" class="hs-menu-children-wrapper">
+                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                    href="../../../../../../solutions/jende/www/campsite-platform.html"
+                                    role="menuitem">Platform Overview</a></li>
+                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                    href="../../../../../../solutions/jende/www/ascent-analytics.html"
+                                    role="menuitem">ASCENT Analytics</a></li>
+                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                    href="../../../../../../solutions/jende/www/data-security.html" role="menuitem">Data
+                                    Privacy &amp; Security</a></li>
+                                <li class="hs-menu-item hs-menu-depth-3" role="none"><a
+                                    href="../../../../../../solutions/jende/www/power-platform-faq.html"
+                                    role="menuitem">Frequently Asked Questions</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                            href="../../../../../../solutions/jende/www/partners.html" role="menuitem">Partners</a></li>
+                        <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a
+                            href="../../../../../../index.html" aria-haspopup="true" aria-expanded="false"
+                            role="menuitem">Resources</a>
+                          <ul role="menu" class="hs-menu-children-wrapper">
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a
+                                href="../../../../../../solutions/jende/www/data-governance-maturity.html"
+                                role="menuitem">Data Governance Maturity Model</a></li>
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="/blog/tag/use-cases"
+                                role="menuitem">Use Cases</a></li>
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="/blog"
+                                role="menuitem">Blog</a></li>
+                          </ul>
+                        </li>
+                        <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a
+                            href="../../../../../../index.html" aria-haspopup="true" aria-expanded="false"
+                            role="menuitem">Company</a>
+                          <ul role="menu" class="hs-menu-children-wrapper">
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a
+                                href="../../../../../../solutions/jende/www/our-story.html" role="menuitem">Our
+                                Story</a></li>
+                            <li class="hs-menu-item hs-menu-depth-2" role="none"><a
+                                href="../../../../../../solutions/jende/www/contact.html" role="menuitem">Contact Us</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </span>
+                </div>
+
+              </div>
+            </section>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main id="mainContent" class="body-container-wrapper ha-waypoint">
+      <div class="container-fluid">
+        <div class="row-fluid-wrapper">
+          <div class="row-fluid">
+            <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+              <div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-1"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="feature-wrapper">
+                        <div class="feature-item dnd_area-module-1 extra-padding default"
+                          style="background-image: url( //f.hubspotusercontent30.net/hubfs/8890237/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/feature-banners/company-workspace.jpg );">
+                          <div class="shader" style="background-color: rgba(38, 1, 55, .2);"></div>
+                          <div class="page-content max">
+                            <div class="feature-content white">
+                              <div class="animation-only" data-aos="fade-left" data-aos-duration="500"
+                                data-aos-delay="150">
+                                <div id="hs_cos_wrapper_dnd_area-module-1_"
+                                  class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                  style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                  data-hs-cos-field="feature_content">
+                                  <h1 style="font-size: 60px;"><strong>THIS IS WHAT YOUR HERO WANTS.</strong></h1>
+                                  <p>Welcome to the hero banner. Time to clearly state what your customer wants and how
+                                    your product or service helps them get it.</p>
+                                </div>
+                                <div class="two-buttons-flex">
+                                  <span id="hs_cos_wrapper_dnd_area-module-1_"
+                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style=""
+                                    data-hs-cos-general-type="widget" data-hs-cos-type="cta"></span>
+                                  <span id="hs_cos_wrapper_dnd_area-module-1_"
+                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_cta" style=""
+                                    data-hs-cos-general-type="widget" data-hs-cos-type="cta"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-2"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-2 no-padding  ">
+                        <div class="page-content max flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-2_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1"></div>
+                            </div>
+                            <div class="marketing-ctas-flex dnd_area-module-2 three offset-items">
+                              <a href="" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+                                <div class="marketing-cta-image"
+                                  style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/interior-small-ctas/notepad.jpg?height=300&amp;name=notepad.jpg);">
+                                </div>
+                                <div class="marketing-cta-content">
+                                  <p class="marketing-cta-title">Problem / Value 1</p>
+                                  <p>Your customer faces a problem and your product/service brings value in this way.
+                                  </p>
+                                </div>
+                              </a>
+                              <a href="" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+                                <div class="marketing-cta-image"
+                                  style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/interior-small-ctas/skyscraper.jpg?height=300&amp;name=skyscraper.jpg);">
+                                </div>
+                                <div class="marketing-cta-content">
+                                  <p class="marketing-cta-title">Problem / Value 2</p>
+                                  <p>Your customer faces a problem and your product/service brings value in this way.
+                                  </p>
+                                </div>
+                              </a>
+                              <a href="" class="marketing-cta" data-aos="fade-down" data-aos-duration="500">
+                                <div class="marketing-cta-image"
+                                  style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/interior-small-ctas/purple-hair-cta.jpg?height=300&amp;name=purple-hair-cta.jpg);">
+                                </div>
+                                <div class="marketing-cta-content">
+                                  <p class="marketing-cta-title">Problem / Value 3</p>
+                                  <p>Your customer faces a problem and your product/service brings value in this way.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-3"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-3   ">
+                        <div class="page-content dnd_area-module-3 small flexed left-side">
+                          <div class="column-content ">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-3_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <p style="text-align: center;"><img
+                                    src="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg"
+                                    alt="Divider-line" style="width: 1px;" width="1"
+                                    srcset="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg 1w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=2&amp;name=divider-line.jpg 2w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=3&amp;name=divider-line.jpg 3w"
+                                    sizes="(max-width: 1px) 100vw, 1px"></p>
+                                <h2 style="text-align: center;">Meet the Guide</h2>
+                                <p style="text-align: center;"><span>Here's where you show empathy with your customer
+                                    and demonstrate authority and credibility. Something like, What you do is not easy,
+                                    we get it. We've been solving this problem for years and helped hundreds of clients
+                                    like you succeed.</span></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-4"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding no-padding" style="">
+                        <div class="tile-flex offset mobi-reverse">
+                          <div class="tile-content dnd_area-module-4 add-offset white" data-aos="fade-right"
+                            data-aos-duration="500" data-aos-delay="150">
+                            <div class="tile-content-inner">
+                              <div id="hs_cos_wrapper_dnd_area-module-4_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="left_column">
+                                <h2>Let's Work Together. We Make it Easy.</h2>
+                                <p>&nbsp;</p>
+                                <p><span>Time to give them a clear 3-step plan for engaging with you.</span></p>
+                                <p><strong>Step. 1</strong>. Schedule a call.</p>
+                                <p><strong>Step 2.</strong> We work together on a plan for your success.</p>
+                                <p><strong>Step 3</strong>. Start seeing results.<br></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tile-image add-offset" data-aos="fade-left" data-aos-duration="500"
+                            data-aos-delay="150">
+                            <img
+                              src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/tiles/group-work.jpg"
+                              alt="Group of people working">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-5"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-5   ">
+                        <div class="page-content dnd_area-module-5 small flexed left-side">
+                          <div class="column-content ">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-5_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <p style="text-align: center;"><span><img
+                                      src="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg"
+                                      alt="Divider-line" style="width: 1px;" width="1"
+                                      srcset="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg 1w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=2&amp;name=divider-line.jpg 2w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=3&amp;name=divider-line.jpg 3w"
+                                      sizes="(max-width: 1px) 100vw, 1px"></span></p>
+                                <h2 style="text-align: center;"><span>What We Do</span></h2>
+                                <p style="text-align: center;"><span>List your services or products, if you have a lot.
+                                    Or use this space to name the industries you serve. It's The Flex Pack, so do what
+                                    you want. Change the icons and colors. You're in control.</span></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-6"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-6  ">
+                        <div class="page-content medium flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-6_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1"></div>
+                            </div>
+                            <div class="services-flex dnd_area-module-6 five">
+                              <a href="" class="service-item" data-aos="fade-down" data-aos-duration="500">
+                                <div class="service-outer">
+                                  <div class="service-inner">
+                                    <div class="service-icon">
+                                      <img
+                                        src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/icon-play.png"
+                                        alt="Play Button Icon">
+                                    </div>
+                                    <div class="service-info">
+                                      <h3 class="service-title">Service Name</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="" class="service-item" data-aos="fade-down" data-aos-duration="500">
+                                <div class="service-outer">
+                                  <div class="service-inner">
+                                    <div class="service-icon">
+                                      <img
+                                        src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/icon-headphones.png"
+                                        alt="Headphones Icon">
+                                    </div>
+                                    <div class="service-info">
+                                      <h3 class="service-title">Your Service</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="" class="service-item" data-aos="fade-down" data-aos-duration="500">
+                                <div class="service-outer">
+                                  <div class="service-inner">
+                                    <div class="service-icon">
+                                      <img
+                                        src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/icon-diamond.png"
+                                        alt="Diamond Icon">
+                                    </div>
+                                    <div class="service-info">
+                                      <h3 class="service-title">Title Name</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="" class="service-item" data-aos="fade-down" data-aos-duration="500">
+                                <div class="service-outer">
+                                  <div class="service-inner">
+                                    <div class="service-icon">
+                                      <img
+                                        src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/icon-airplane.png"
+                                        alt="Paper Airplane Icon">
+                                    </div>
+                                    <div class="service-info">
+                                      <h3 class="service-title">Service Title</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="" class="service-item" data-aos="fade-down" data-aos-duration="500">
+                                <div class="service-outer">
+                                  <div class="service-inner">
+                                    <div class="service-icon">
+                                      <img
+                                        src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/icon-bubbles.png"
+                                        alt="Speech Bubbles Icon">
+                                    </div>
+                                    <div class="service-info">
+                                      <h3 class="service-title">Name Service</h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-7"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding no-padding" style="">
+                        <div class="tile-flex offset all-reverse image-left">
+                          <div class="tile-content dnd_area-module-7 add-offset white" data-aos="fade-left"
+                            data-aos-duration="500" data-aos-delay="150">
+                            <div class="tile-content-inner">
+                              <div id="hs_cos_wrapper_dnd_area-module-7_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="left_column">
+                                <h2>Get this Free Lead Magnet</h2>
+                                <p>&nbsp;</p>
+                                <p>Here’s a flexible space to promote an event, offer a lead magnet like a free
+                                  download. Once again, if you don't need this module delete it and replace with another
+                                  one that works for your content.<br></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tile-image add-offset" data-aos="fade-right" data-aos-duration="500"
+                            data-aos-delay="150">
+                            <img
+                              src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/content/guide.jpg"
+                              alt="Picture of a book">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-8"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-8   ">
+                        <div class="page-content dnd_area-module-8 small flexed left-side">
+                          <div class="column-content ">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-8_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <p style="text-align: center;"><span><img
+                                      src="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg"
+                                      alt="Divider-line" style="width: 1px;" width="1"
+                                      srcset="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg 1w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=2&amp;name=divider-line.jpg 2w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=3&amp;name=divider-line.jpg 3w"
+                                      sizes="(max-width: 1px) 100vw, 1px"></span></p>
+                                <h2 style="text-align: center;"><span>Look at These</span></h2>
+                                <p style="text-align: center;">Tell your audience why the items below are awesome, and
+                                  they should click on them to explore more.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-9"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-9  ">
+                        <div class="page-content max flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-9_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="image-ctas-flex four dnd_area-module-9">
+                          <div class="image-cta" data-aos="fade-down" data-aos-duration="500">
+                            <div class="image-cta-image"
+                              style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/tiles/buildings.jpg?height=550&amp;name=buildings.jpg);">
+                            </div>
+                            <div class="image-cta-shader"></div>
+                            <div class="image-cta-info">
+                              <p class="image-cta-title "> <a href="#">Title of this Item</a> </p>
+                              <p class="image-cta-blurb ">Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril
+                                suavitate vel. At error simul platonem eos, eum harum nonumes an.</p>
+                            </div>
+                            <div class="image-cta-button left-side">
+                              <a href="#" class="button"> Explore </a>
+                            </div>
+                          </div>
+                          <div class="image-cta" data-aos="fade-down" data-aos-duration="500">
+                            <div class="image-cta-image"
+                              style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/tiles/city-skyline.jpg?height=550&amp;name=city-skyline.jpg);">
+                            </div>
+                            <div class="image-cta-shader"></div>
+                            <div class="image-cta-info">
+                              <p class="image-cta-title "> <a href="#">Title of this Item 2</a> </p>
+                              <p class="image-cta-blurb ">Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril
+                                suavitate vel. At error simul platonem eos, eum harum nonumes an.</p>
+                            </div>
+                            <div class="image-cta-button left-side">
+                              <a href="#" class="button"> Explore </a>
+                            </div>
+                          </div>
+                          <div class="image-cta" data-aos="fade-down" data-aos-duration="500">
+                            <div class="image-cta-image"
+                              style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/tiles/glass-office-building.jpg?height=550&amp;name=glass-office-building.jpg);">
+                            </div>
+                            <div class="image-cta-shader"></div>
+                            <div class="image-cta-info">
+                              <p class="image-cta-title "> <a href="#">Title of this Item 3</a> </p>
+                              <p class="image-cta-blurb ">Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril
+                                suavitate vel. At error simul platonem eos, eum harum nonumes an.</p>
+                            </div>
+                            <div class="image-cta-button left-side">
+                              <a href="#" class="button"> Explore </a>
+                            </div>
+                          </div>
+                          <div class="image-cta" data-aos="fade-down" data-aos-duration="500">
+                            <div class="image-cta-image"
+                              style="background-image: url(//f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/tiles/group-work.jpg?height=550&amp;name=group-work.jpg);">
+                            </div>
+                            <div class="image-cta-shader"></div>
+                            <div class="image-cta-info">
+                              <p class="image-cta-title "> <a href="#">Title of this Item 4</a> </p>
+                              <p class="image-cta-blurb ">Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril
+                                suavitate vel. At error simul platonem eos, eum harum nonumes an.</p>
+                            </div>
+                            <div class="image-cta-button left-side">
+                              <a href="#" class="button"> Explore </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-10"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-10   ">
+                        <div class="page-content dnd_area-module-10 small flexed left-side">
+                          <div class="column-content ">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-10_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <p style="text-align: center;"><span><img
+                                      src="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg"
+                                      alt="Divider-line" style="width: 1px;" width="1"
+                                      srcset="/hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=1&amp;name=divider-line.jpg 1w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=2&amp;name=divider-line.jpg 2w, /hs-fs/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/icons/divider-line.jpg?width=3&amp;name=divider-line.jpg 3w"
+                                      sizes="(max-width: 1px) 100vw, 1px"></span></p>
+                                <h2 style="text-align: center;"><span>Upcoming Events</span></h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-11"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-11  ">
+                        <div class="page-content max flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-11_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1"></div>
+                            </div>
+                            <div class="events-flex">
+                              <div class="event">
+                                <div class="event-image" data-aos="fade-right" data-aos-duration="500"
+                                  data-aos-delay="150">
+                                  <a href=""> <img
+                                      src="http://f.hubspotusercontent30.net/hub/8890237/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/events/large-stadium.jpg?height=275&amp;name=large-stadium.jpg"
+                                      alt="Large Stadium"> </a>
+                                </div>
+                                <div class="event-info" data-aos="fade-left" data-aos-duration="500"
+                                  data-aos-delay="150">
+                                  <div class="event-triangle"></div>
+                                  <div class="event-content">
+                                    <h3><a href="" class="dark-link">On-Demand Webinar</a></h3>
+                                    <p>It’s a free webinar, or maybe it’s not and you want to charge for it. Great! Give
+                                      some details here about your event and make them want to sign up. 25th Annual
+                                      Conference. It’s a big event coming up, the biggest of the year. Give some details
+                                      here about and make them want to sign up.</p>
+                                  </div>
+                                  <div class="event-details">
+                                    <div class="event-details-inner">
+                                      <p><span><i class="fas fa-calendar-alt"></i></span> Oct 10, 2027</p>
+                                      <p><span><i class="fas fa-clock"></i></span> 9:00 am - 12:00 pm / 10:00am -
+                                        12:00pm</p>
+                                      <p><span><i class="fas fa-map-marker-alt"></i></span> Dallas Conference Center</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-12"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-12 white  ">
+                        <div class="page-content medium flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-12_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <h2 style="text-align: center;"><span>Our Clients</span></h2>
+                                <p style="text-align: center;">Here's a flexible module you can use for partner logos.
+                                  Try adding client logos if you want to show off your awesome clients. Or use it for
+                                  awards, certifications, and accolades.</p>
+                                <p>&nbsp;</p>
+                              </div>
+                            </div>
+                            <div class="partners-flex five">
+                              <div class="partner" data-aos="fade-down" data-aos-duration="500">
+                                <img
+                                  src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/logos/coma.png"
+                                  alt="Large Stadium">
+                              </div>
+                              <div class="partner" data-aos="fade-down" data-aos-duration="500">
+                                <img
+                                  src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/logos/generic.png"
+                                  alt="Large Stadium">
+                              </div>
+                              <div class="partner" data-aos="fade-down" data-aos-duration="500">
+                                <img
+                                  src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/logos/microhard.png"
+                                  alt="Large Stadium">
+                              </div>
+                              <div class="partner" data-aos="fade-down" data-aos-duration="500">
+                                <img
+                                  src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/logos/swoosh.png"
+                                  alt="Large Stadium">
+                              </div>
+                              <div class="partner" data-aos="fade-down" data-aos-duration="500">
+                                <img
+                                  src="/hubfs/raw_assets/public/@marketplace/Mojo_Media_Labs/MojoFlex-Master/images/logos/original-fake.png"
+                                  alt="Large Stadium">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-13"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-13  ">
+                        <div class="page-content medium flexed">
+                          <div class="column-content full">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-13_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1"></div>
+                            </div>
+                            <div class="test-wrapper">
+                              <a aria-label="Next Testimonial" class="carousel-pager pager-next" href="#"><span
+                                  class="pager first"></span><span class="pager last"></span></a>
+                              <a aria-label="Previous Testimonial" class="carousel-pager pager-prev" href="#"><span
+                                  class="pager first"></span><span class="pager last"></span></a>
+                              <div class="test-carousel">
+                                <div class="test-item">
+                                  <div class="test-content">
+                                    <div id="hs_cos_wrapper_dnd_area-module-13_"
+                                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                      style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                      data-hs-cos-field="testimonial">
+                                      <p>Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril suavitate vel. At
+                                        error simul platonem eos, eum harum nonumes an.Lorem ipsum dolor sit amet,
+                                        mollis nominati pri ea, et zril suavitate vel. At error simul platonem eos, eum
+                                        harum nonumes an.</p>
+                                    </div>
+                                  </div>
+                                  <div class="test-author">
+                                    <p><strong>Mojo Media Labs</strong> HubSpot MojoFlex Theme</p>
+                                  </div>
+                                </div>
+                                <div class="test-item">
+                                  <div class="test-content">
+                                    <div id="hs_cos_wrapper_dnd_area-module-13_"
+                                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                      style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                      data-hs-cos-field="testimonial">
+                                      <p>Lorem ipsum dolor sit amet, mollis nominati pri ea, et zril suavitate vel. At
+                                        error simul platonem eos, eum harum nonumes an.Lorem ipsum dolor sit amet,
+                                        mollis nominati pri ea, et zril suavitate vel. At error simul platonem eos, eum
+                                        harum nonumes an.</p>
+                                    </div>
+                                  </div>
+                                  <div class="test-author">
+                                    <p><strong>Mojo Media Labs</strong> HubSpot MojoFlex Theme</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-14"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding no-padding dnd_area-module-14 ">
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+              <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section">
+                <div class="row-fluid ">
+                  <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
+                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                    <div id="hs_cos_wrapper_dnd_area-module-15"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                      <div class="std-padding dnd_area-module-15 white reg-padding  ">
+                        <div class="page-content medium flexed left-side">
+                          <div class="column-content ">
+                            <div class="animation-only">
+                              <div id="hs_cos_wrapper_dnd_area-module-15_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text"
+                                style="" data-hs-cos-general-type="widget" data-hs-cos-type="inline_rich_text"
+                                data-hs-cos-field="column_1">
+                                <h2 style="text-align: center;">Schedule a Call</h2>
+                              </div>
+                              <div class="form-wrapper dnd_area-module-15 add-padding white">
+                                <span id="hs_cos_wrapper_dnd_area-module-15_"
+                                  class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style=""
+                                  data-hs-cos-general-type="widget" data-hs-cos-type="form">
+                                  <h3 id="hs_cos_wrapper_dnd_area-module-15_title" class="hs_cos_wrapper form-title"
+                                    data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
+                                  <div id="hs_form_target_dnd_area-module-15"></div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end widget-span -->
+                </div>
+                <!--end row-->
+              </div>
+              <!--end row-wrapper -->
+            </div>
+            <!--end widget-span -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      data-global-resource-path="assets/@marketplace/Mojo_Media_Labs/MojoFlex-Master/templates/partials/mojoflex-footer.html">
+      <footer class="footer">
+        <div id="hs_cos_wrapper_mojoflex-footer" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+          style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+          <div class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="footer-top simple">
+              <div class="page-content max">
+                <address>1700 Strand St. Galveston, TX 77555-0927</address>
+                <div class="copyright">
+                  <p>© 2021 <a href="" class="dark-link">Jende Solutions</a>. All rights reserved. </p>
+                  <div class="simple-footer-nav">
+                    <span id="hs_cos_wrapper_mojoflex-footer_"
+                      class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style=""
+                      data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
+                      <div id="hs_menu_wrapper_mojoflex-footer_"
+                        class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation"
+                        data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+                        <ul role="menu">
+                          <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                              href="../../../../../../solutions/jende/www/privacy-policy.html" role="menuitem"
+                              target="_self">Privacy Policy</a></li>
+                          <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                              href="../../../../../../solutions/jende/www/data-security.html" role="menuitem"
+                              target="_self">Data Security</a></li>
+                        </ul>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <style>
+            .footer {
+              background-color: rgba(255, 255, 255, 1);
+            }
+
+            .footer-soc.social a,
+            .footer-soc.social a:visited {
+              background: rgba(60, 91, 113, 1);
+              color: rgba(255, 255, 255, 1);
+            }
+
+            .footer-soc.social a:hover,
+            .footer-soc.social a:focus {
+              background: rgba(65, 130, 192, 1);
+              color: rgba(255, 255, 255, 1);
+            }
+
+            .footer-nav li a,
+            .footer-nav li a:visited {
+              color: rgba(66, 130, 193, 1);
+            }
+
+            .footer-nav li li a,
+            .footer-nav li li a:visited {
+              color: rgba(82, 82, 82, 1);
+            }
+
+            .footer-nav li li a:hover,
+            .footer-nav li li a:focus {
+              color: rgba(66, 130, 193, 1);
+            }
+
+            .footer-content p,
+            .footer-content,
+            address {
+              color: rgba(82, 82, 82, 1);
+            }
+          </style>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script>
+    (function () {
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', '/_hcms/perf', true /*async*/);
+          xhr.setRequestHeader("Content-type", "application/json");
+          xhr.onreadystatechange = function () {
+            // do nothing.
+          };
+          var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+          function populateNetworkInfo(name, connection, info) {
+            if (name in connection) {
+              info[name] = connection[name];
+            }
+          }
+          var networkInfo = {};
+          if (connection) {
+            ['type', 'effectiveType', 'downlink', 'rtt'].forEach(function (name) {
+              populateNetworkInfo(name, connection, networkInfo);
+            });
+          }
+          var perfData = {
+            url: location.href,
+            portal: 8890237,
+            content: 1,
+            group: -1,
+            connection: networkInfo,
+            timing: performance.timing
+          };
+          xhr.send(JSON.stringify(perfData));
+        }, 3000);  // Execute this 3 seconds after onload.
+      });
+    })();
+  </script>
+  <script src="/assets/@marketplace/Mojo_Media_Labs/MojoFlex-Master/js/libraries/waypoints-jquery-min-mf.js"></script>
+  <script src="/assets/@marketplace/Mojo_Media_Labs/MojoFlex-Master/js/libraries/aos-min-mf.js"></script>
+  <script src="/assets/@marketplace/Mojo_Media_Labs/MojoFlex-Master/js/mojoflex-scripts.js"></script>
+  <script>
+    if (typeof hsVars !== 'undefined') {hsVars['language'] = 'en';}
+  </script>
+  <script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+  <script src="/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+  <script
+    src="/hs-fs/hub/8890237/hub_generated/template_assets/41243146585/1612403069494/marketplace/Mojo_Media_Labs/MojoFlex-Master/js/libraries/slick-min-mf.min.js"></script>
+  <script
+    src="/hs-fs/hub/8890237/hub_generated/module_assets/41243147038/1613781612036/module_41243147038_Testimonial_Carousel_with_content_-_MojoFlex.min.js"></script>
+  <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+  <script data-hs-allowed="true" src="https://js.hsforms.net/forms/v2.js"></script>
+  <script data-hs-allowed="true">
+    var options = {
+      portalId: '8890237',
+      formId: 'd985d60c-6f3c-4e03-b109-6ba78d7cdd16',
+      formInstanceId: '2810',
+      pageId: '1',
+      region: 'na1',
+
+
+
+
+
+
+      inlineMessage: "Thanks for submitting the form.",
+
+
+      rawInlineMessage: "Thanks for submitting the form.",
+
+
+      hsFormKey: "37f1086bbe1b5d21f878f109233a102c",
+
+
+      css: '',
+      target: '#hs_form_target_dnd_area-module-15',
+
+
+
+
+
+      contentType: "landing-page",
+
+
+
+      formData: {
+        cssClass: 'hs-form stacked hs-custom-form'
+      }
+    };
+
+    options.getExtraMetaDataBeforeSubmit = function () {
+      var metadata = {};
+
+
+      if (hbspt.targetedContentMetadata) {
+        var count = hbspt.targetedContentMetadata.length;
+        var targetedContentData = [];
+        for (var i = 0; i < count; i++) {
+          var tc = hbspt.targetedContentMetadata[i];
+          if (tc.length !== 3) {
+            continue;
+          }
+          targetedContentData.push({
+            definitionId: tc[0],
+            criterionId: tc[1],
+            smartTypeId: tc[2]
+          });
+        }
+        metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+      }
+
+      return metadata;
+    };
+
+    hbspt.forms.create(options);
+  </script>
+  <!-- Start of HubSpot Analytics Code -->
+  <script type="text/javascript">
+    var _hsq = _hsq || [];
+    _hsq.push(["setContentType", "landing-page"]);
+    _hsq.push(["setCanonicalUrl", "https:\/\/www.jende.solutions\/7dea362b-3fac-3e00-956a-4952a3d4f474"]);
+    _hsq.push(["setPageId", ""]);
+    _hsq.push(["setContentMetadata", {
+      "contentPageId": 1,
+      "legacyPageId": null,
+      "contentFolderId": null,
+      "contentGroupId": null,
+      "abTestId": null,
+      "languageVariantId": 1,
+      "languageCode": null,
+
+    }]);
+  </script>
+  <script type="text/javascript" id="hs-script-loader" async defer
+    src="/hs/scriptloader/8890237.js?businessUnitId=0"></script>
+  <!-- End of HubSpot Analytics Code -->
+  <script type="text/javascript">
+    var hsVars = {
+      ticks: 1637181650594,
+      page_id: 1,
+
+      content_group_id: 0,
+      portal_id: 8890237,
+      app_hs_base_url: "https://app.hubspot.com",
+      cp_hs_base_url: "https://cp.hubspot.com",
+      language: "en",
+      analytics_page_type: "landing-page",
+      analytics_page_id: "null",
+      category_id: 1,
+      folder_id: 0,
+      is_hubspot_user: null
+    }
+  </script>
+  <script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.119/js/index.js"></script>
+  <noscript>
+    <img src="https://ws.zoominfo.com/pixel/wRVuVWINUFkYsc1yrjNN" width="1" height="1" style="display: none;">
+  </noscript>
+</body>
+
+</html>
